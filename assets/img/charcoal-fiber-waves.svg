@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1200" width="1920" height="1200" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <!-- Matte Dark Black Obsidian Base -->
+    <linearGradient id="charcoal-base" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="35%" stop-color="#030304"/>
+      <stop offset="70%" stop-color="#010102"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+
+    <!-- Diagonal Carbon-Silk Micro-Weave Pattern -->
+    <pattern id="carbon-micro-weave" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(32)">
+      <rect width="10" height="10" fill="#000000" fill-opacity="0.35"/>
+      <path d="M 0 0 L 5 0 L 5 5 L 0 5 Z" fill="#101013" fill-opacity="0.28"/>
+      <path d="M 5 5 L 10 5 L 10 10 L 5 10 Z" fill="#101013" fill-opacity="0.28"/>
+      <path d="M 0 2.5 L 10 2.5 M 0 7.5 L 10 7.5" stroke="#000000" stroke-width="0.95" stroke-opacity="0.78"/>
+      <path d="M 2.5 0 L 2.5 10 M 7.5 0 L 7.5 10" stroke="#ffffff" stroke-width="0.4" stroke-opacity="0.025"/>
+    </pattern>
+
+    <!-- 3D Sculpted Dark Black Wave Fold Gradients -->
+    <linearGradient id="fold-1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.98"/>
+      <stop offset="22%" stop-color="#0a0a0c" stop-opacity="0.95"/>
+      <stop offset="38%" stop-color="#121216" stop-opacity="0.86"/>
+      <stop offset="56%" stop-color="#050506" stop-opacity="0.97"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.99"/>
+    </linearGradient>
+
+    <linearGradient id="fold-2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.98"/>
+      <stop offset="28%" stop-color="#0b0b0e" stop-opacity="0.94"/>
+      <stop offset="44%" stop-color="#141418" stop-opacity="0.82"/>
+      <stop offset="65%" stop-color="#040405" stop-opacity="0.97"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.99"/>
+    </linearGradient>
+
+    <linearGradient id="fold-3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.98"/>
+      <stop offset="32%" stop-color="#09090b" stop-opacity="0.94"/>
+      <stop offset="48%" stop-color="#111115" stop-opacity="0.80"/>
+      <stop offset="72%" stop-color="#030304" stop-opacity="0.97"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.99"/>
+    </linearGradient>
+
+    <!-- Dark Black Fiber Strand Gradients -->
+    <linearGradient id="strand-charcoal-bright" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#141418" stop-opacity="0.08"/>
+      <stop offset="20%" stop-color="#24242b" stop-opacity="0.54"/>
+      <stop offset="50%" stop-color="#32323b" stop-opacity="0.72"/>
+      <stop offset="80%" stop-color="#222229" stop-opacity="0.52"/>
+      <stop offset="100%" stop-color="#141418" stop-opacity="0.08"/>
+    </linearGradient>
+
+    <linearGradient id="strand-charcoal-soft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0e0e11" stop-opacity="0.05"/>
+      <stop offset="25%" stop-color="#19191f" stop-opacity="0.45"/>
+      <stop offset="55%" stop-color="#222229" stop-opacity="0.55"/>
+      <stop offset="82%" stop-color="#17171c" stop-opacity="0.40"/>
+      <stop offset="100%" stop-color="#0e0e11" stop-opacity="0.05"/>
+    </linearGradient>
+
+    <linearGradient id="strand-warm-rim" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d9b98f" stop-opacity="0.0"/>
+      <stop offset="24%" stop-color="#d9b98f" stop-opacity="0.14"/>
+      <stop offset="52%" stop-color="#f1d2aa" stop-opacity="0.22"/>
+      <stop offset="78%" stop-color="#d9b98f" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#d9b98f" stop-opacity="0.0"/>
+    </linearGradient>
+
+    <linearGradient id="trough-shadow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#000000" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1. Base Matte Charcoal Canvas -->
+  <rect width="1920" height="1200" fill="url(#charcoal-base)"/>
+
+  <!-- 2. Layered 3D Charcoal Wave Folds -->
+  <!-- Wave Fold A (Top-to-Mid) -->
+  <path d="M -220 90 C 260 -80, 760 310, 1320 95 C 1660 -35, 1940 70, 2140 20 L 2140 440 C 1780 520, 1320 230, 780 410 C 320 560, 40 410, -220 480 Z" fill="url(#fold-1)"/>
+
+  <!-- Wave Fold B (Upper-Mid Sweep) -->
+  <path d="M -220 340 C 310 140, 840 560, 1410 310 C 1730 170, 1960 290, 2140 240 L 2140 720 C 1740 830, 1240 470, 680 680 C 260 835, -20 690, -220 760 Z" fill="url(#fold-2)"/>
+
+  <!-- Wave Fold C (Center-to-Low Sweep) -->
+  <path d="M -220 640 C 240 460, 790 880, 1360 620 C 1700 465, 1950 595, 2140 540 L 2140 1020 C 1700 1130, 1180 770, 620 965 C 210 1105, -40 960, -220 1030 Z" fill="url(#fold-3)"/>
+
+  <!-- Wave Fold D (Bottom Anchor Wave) -->
+  <path d="M -220 910 C 330 740, 880 1110, 1440 890 C 1760 765, 1970 870, 2140 820 L 2140 1260 L -220 1260 Z" fill="url(#fold-1)"/>
+
+  <!-- 3. Fine Parallel Fiber Waves — Bundle 1 (Top Ridge) -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M -200 72 C 280 -95, 780 295, 1340 80 C 1680 -48, 1950 58, 2140 10" stroke="url(#trough-shadow)" stroke-width="28"/>
+    <path d="M -200 84 C 280 -83, 780 307, 1340 92 C 1680 -36, 1950 70, 2140 22" stroke="url(#strand-charcoal-bright)" stroke-width="1.8"/>
+    <path d="M -200 91 C 280 -76, 780 314, 1340 99 C 1680 -29, 1950 77, 2140 29" stroke="url(#strand-warm-rim)" stroke-width="1.15"/>
+    <path d="M -200 98 C 280 -69, 780 321, 1340 106 C 1680 -22, 1950 84, 2140 36" stroke="url(#strand-charcoal-soft)" stroke-width="1.5"/>
+    <path d="M -200 105 C 280 -62, 780 328, 1340 113 C 1680 -15, 1950 91, 2140 43" stroke="url(#strand-charcoal-bright)" stroke-width="1.3"/>
+    <path d="M -200 112 C 280 -55, 780 335, 1340 120 C 1680 -8, 1950 98, 2140 50" stroke="url(#strand-charcoal-soft)" stroke-width="1.2"/>
+    <path d="M -200 119 C 280 -48, 780 342, 1340 127 C 1680 -1, 1950 105, 2140 57" stroke="url(#strand-charcoal-soft)" stroke-width="1.1"/>
+    <path d="M -200 126 C 280 -41, 780 349, 1340 134 C 1680 6, 1950 112, 2140 64" stroke="url(#strand-charcoal-bright)" stroke-width="1.2"/>
+    <path d="M -200 133 C 280 -34, 780 356, 1340 141 C 1680 13, 1950 119, 2140 71" stroke="url(#strand-charcoal-soft)" stroke-width="1.0"/>
+    <path d="M -200 140 C 280 -27, 780 363, 1340 148 C 1680 20, 1950 126, 2140 78" stroke="url(#strand-charcoal-soft)" stroke-width="0.9"/>
+    <path d="M -200 147 C 280 -20, 780 370, 1340 155 C 1680 27, 1950 133, 2140 85" stroke="url(#strand-charcoal-soft)" stroke-width="0.8"/>
+  </g>
+
+  <!-- 4. Fine Parallel Fiber Waves — Bundle 2 (Upper-Mid Ridge) -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M -200 326 C 320 126, 850 546, 1420 296 C 1740 156, 1960 276, 2140 226" stroke="url(#trough-shadow)" stroke-width="34"/>
+    <path d="M -200 338 C 320 138, 850 558, 1420 308 C 1740 168, 1960 288, 2140 238" stroke="url(#strand-charcoal-bright)" stroke-width="2.0"/>
+    <path d="M -200 345 C 320 145, 850 565, 1420 315 C 1740 175, 1960 295, 2140 245" stroke="url(#strand-warm-rim)" stroke-width="1.3"/>
+    <path d="M -200 352 C 320 152, 850 572, 1420 322 C 1740 182, 1960 302, 2140 252" stroke="url(#strand-charcoal-bright)" stroke-width="1.6"/>
+    <path d="M -200 359 C 320 159, 850 579, 1420 329 C 1740 189, 1960 309, 2140 259" stroke="url(#strand-charcoal-soft)" stroke-width="1.4"/>
+    <path d="M -200 366 C 320 166, 850 586, 1420 336 C 1740 196, 1960 316, 2140 266" stroke="url(#strand-charcoal-bright)" stroke-width="1.3"/>
+    <path d="M -200 373 C 320 173, 850 593, 1420 343 C 1740 203, 1960 323, 2140 273" stroke="url(#strand-charcoal-soft)" stroke-width="1.2"/>
+    <path d="M -200 380 C 320 180, 850 600, 1420 350 C 1740 210, 1960 330, 2140 280" stroke="url(#strand-warm-rim)" stroke-width="0.9"/>
+    <path d="M -200 387 C 320 187, 850 607, 1420 357 C 1740 217, 1960 337, 2140 287" stroke="url(#strand-charcoal-soft)" stroke-width="1.2"/>
+    <path d="M -200 394 C 320 194, 850 614, 1420 364 C 1740 224, 1960 344, 2140 294" stroke="url(#strand-charcoal-soft)" stroke-width="1.05"/>
+    <path d="M -200 401 C 320 201, 850 621, 1420 371 C 1740 231, 1960 351, 2140 301" stroke="url(#strand-charcoal-soft)" stroke-width="0.95"/>
+    <path d="M -200 408 C 320 208, 850 628, 1420 378 C 1740 238, 1960 358, 2140 308" stroke="url(#strand-charcoal-soft)" stroke-width="0.85"/>
+  </g>
+
+  <!-- 5. Fine Parallel Fiber Waves — Bundle 3 (Center-Low Ridge) -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M -200 626 C 250 446, 800 866, 1370 606 C 1710 451, 1955 581, 2140 526" stroke="url(#trough-shadow)" stroke-width="34"/>
+    <path d="M -200 638 C 250 458, 800 878, 1370 618 C 1710 463, 1955 593, 2140 538" stroke="url(#strand-charcoal-bright)" stroke-width="1.9"/>
+    <path d="M -200 645 C 250 465, 800 885, 1370 625 C 1710 470, 1955 600, 2140 545" stroke="url(#strand-warm-rim)" stroke-width="1.2"/>
+    <path d="M -200 652 C 250 472, 800 892, 1370 632 C 1710 477, 1955 607, 2140 552" stroke="url(#strand-charcoal-bright)" stroke-width="1.5"/>
+    <path d="M -200 659 C 250 479, 800 899, 1370 639 C 1710 484, 1955 614, 2140 559" stroke="url(#strand-charcoal-soft)" stroke-width="1.35"/>
+    <path d="M -200 666 C 250 486, 800 906, 1370 646 C 1710 491, 1955 621, 2140 566" stroke="url(#strand-charcoal-bright)" stroke-width="1.25"/>
+    <path d="M -200 673 C 250 493, 800 913, 1370 653 C 1710 498, 1955 628, 2140 573" stroke="url(#strand-charcoal-soft)" stroke-width="1.15"/>
+    <path d="M -200 680 C 250 500, 800 920, 1370 660 C 1710 505, 1955 635, 2140 580" stroke="url(#strand-charcoal-soft)" stroke-width="1.05"/>
+    <path d="M -200 687 C 250 507, 800 927, 1370 667 C 1710 512, 1955 642, 2140 587" stroke="url(#strand-charcoal-soft)" stroke-width="0.95"/>
+    <path d="M -200 694 C 250 514, 800 934, 1370 674 C 1710 519, 1955 649, 2140 594" stroke="url(#strand-charcoal-soft)" stroke-width="0.85"/>
+  </g>
+
+  <!-- 6. Counter-Harmonic Secondary Fiber Ribbon (Adds Woven Depth) -->
+  <g fill="none" stroke-linecap="round" opacity="0.65">
+    <path d="M -200 510 C 360 690, 900 280, 1460 500 C 1760 615, 1960 510, 2140 560" stroke="url(#trough-shadow)" stroke-width="22"/>
+    <path d="M -200 518 C 360 698, 900 288, 1460 508 C 1760 623, 1960 518, 2140 568" stroke="url(#strand-charcoal-bright)" stroke-width="1.4"/>
+    <path d="M -200 525 C 360 705, 900 295, 1460 515 C 1760 630, 1960 525, 2140 575" stroke="url(#strand-charcoal-soft)" stroke-width="1.2"/>
+    <path d="M -200 532 C 360 712, 900 302, 1460 522 C 1760 637, 1960 532, 2140 582" stroke="url(#strand-warm-rim)" stroke-width="0.9"/>
+    <path d="M -200 539 C 360 719, 900 309, 1460 529 C 1760 644, 1960 539, 2140 589" stroke="url(#strand-charcoal-soft)" stroke-width="1.1"/>
+    <path d="M -200 546 C 360 726, 900 316, 1460 536 C 1760 651, 1960 546, 2140 596" stroke="url(#strand-charcoal-soft)" stroke-width="0.95"/>
+  </g>
+
+  <!-- 7. Fine Parallel Fiber Waves — Bundle 4 (Bottom Ridge) -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M -200 896 C 340 726, 890 1096, 1450 876 C 1770 751, 1975 856, 2140 806" stroke="url(#trough-shadow)" stroke-width="30"/>
+    <path d="M -200 908 C 340 738, 890 1108, 1450 888 C 1770 763, 1975 868, 2140 818" stroke="url(#strand-charcoal-bright)" stroke-width="1.75"/>
+    <path d="M -200 915 C 340 745, 890 1115, 1450 895 C 1770 770, 1975 875, 2140 825" stroke="url(#strand-warm-rim)" stroke-width="1.1"/>
+    <path d="M -200 922 C 340 752, 890 1122, 1450 902 C 1770 777, 1975 882, 2140 832" stroke="url(#strand-charcoal-soft)" stroke-width="1.4"/>
+    <path d="M -200 929 C 340 759, 890 1129, 1450 909 C 1770 784, 1975 889, 2140 839" stroke="url(#strand-charcoal-bright)" stroke-width="1.2"/>
+    <path d="M -200 936 C 340 766, 890 1136, 1450 916 C 1770 791, 1975 896, 2140 846" stroke="url(#strand-charcoal-soft)" stroke-width="1.05"/>
+    <path d="M -200 943 C 340 773, 890 1143, 1450 923 C 1770 798, 1975 903, 2140 853" stroke="url(#strand-charcoal-soft)" stroke-width="0.9"/>
+  </g>
+
+  <!-- 8. Carbon Micro-Weave Texture Overlay -->
+  <rect width="1920" height="1200" fill="url(#carbon-micro-weave)"/>
+</svg>

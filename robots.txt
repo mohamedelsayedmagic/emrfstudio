@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /posts/
+Disallow: /blog.html
+Disallow: /about.html
+Disallow: /services.html
+Disallow: /showcase.html
+Disallow: /work.html
+Disallow: /workflow.html
+Disallow: /contact.html
+
+Sitemap: https://emrfstudio.com/sitemap.xml
